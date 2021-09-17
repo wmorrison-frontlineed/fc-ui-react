@@ -1,0 +1,54 @@
+.loader {
+	position: relative
+	opacity: 0;
+	transition: opacity 200ms;
+	text-align: center
+	z-index: 100
+
+	&.is-loading {
+		opacity: 1;
+	}
+
+	&.is-loading-remove-active {
+		display: none;
+	}
+
+	&.fill-container {
+		absolute: top 0 right 0 bottom 0 left 0
+
+		.cover {
+			absolute: top 0 right 0 bottom 0 left 0
+			opacity: 0.8;
+			z-index: 2;
+		}
+
+		.loading-container {
+			absolute: top right bottom left
+			margin: auto;
+			z-index: 5;
+			width: 100%
+
+			.logo-spinner {
+				width: 50px
+				height: 50px
+				margin: auto
+			}
+		}
+
+		.bar {
+			animation-name: height-change;
+		}
+	}
+
+	.status {
+		position: relative;
+		color: $plum600;
+		font-weight: 600;
+		font-size: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 90%;
+		margin: auto
+	}
+
+}

@@ -1,6 +1,6 @@
 {
-  "name": "@frontline/fc-ui-react",
-  "version": "1.0.0",
+  "name": "@wmorrison-frontlineed/fc-ui-react",
+  "version": "1.0.2",
   "description": "Frontline Central UI Component Library",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/wmorrison-frontlineed/fc-ui-react/issues"
   },
-  "homepage": "https://github.com/wmorrison-frontlineed/fc-ui-react#readme"
+  "homepage": "https://github.com/wmorrison-frontlineed/fc-ui-react#readme",
+  "devDependencies": {
+    "classnames": "^2.3.1",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.2.1"
+  }
 }

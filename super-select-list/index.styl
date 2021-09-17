@@ -1,0 +1,36 @@
+.react-super-single-select-list {
+	.super-button-container {
+		display: block
+	}
+
+	.select {
+		background-color: #fff
+		position: absolute
+		z-index: 1000
+		border-bottom: 1px solid $salt600
+
+		.select-list {
+			border: 0
+			position: relative
+			border: 1px solid $salt600
+			max-height: 200px
+			min-width: 400px
+			max-width: 500px
+			overflow-y: auto
+			min-height: 32px;
+		
+			option {
+				margin: 0
+				width: 100%
+				padding: 6px 0 6px 10px
+				white-space: nowrap
+				overflow: hidden
+				text-overflow: ellipsis
+			}
+
+			option:hover {
+				background-color: #f1f3f5;
+			}
+		}
+	}
+}
