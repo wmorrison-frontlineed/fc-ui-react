@@ -1,0 +1,19 @@
+{
+  "name": "@frontline/fc-ui-react",
+  "version": "1.0.0",
+  "description": "Frontline Central UI Component Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmorrison-frontlineed/fc-ui-react.git"
+  },
+  "author": "Will Morrison (wmorrison@frontlineed.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmorrison-frontlineed/fc-ui-react/issues"
+  },
+  "homepage": "https://github.com/wmorrison-frontlineed/fc-ui-react#readme"
+}
